@@ -3,7 +3,7 @@
      padding: 0;           
 }
 body{
-       background-image: linear-gradient(to bottom,#86e4f9, #3bd5f7, #2fa9c4);         
+       background-image: linear-gradient(to bottom,white, grey, black);         
 }
 main{
     background-color: white;            
@@ -64,6 +64,7 @@ h2{
                 margin-top:10px;
                 margin-bottom: 5px;
                 text-align: justify;
+                line-height: 1.5em;
 }
 #progbr{
        text-decoration: none;
@@ -135,17 +136,19 @@ ul > li{
                 font-family: Helvetica, sans-serif;
                 text-align: justify;
 }
+#objetivo p{
+    line-height: 1.5em;
+}
 
 /*Rodapé*/
 footer{
         width: 100%;
-        height: 100px; 
-        background-color: black;
-        color: #86e4f9;       
+        height: 100px;      
 }
 footer > p{
-                padding-top: 15px;
+          padding-top: 15px;
           text-align: center;
           font-size: 1.5em; 
-          font-family: Helvetica, sans-serif;     
+          font-family: Helvetica, sans-serif;
+          color: white;     
 }
