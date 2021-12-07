@@ -35,13 +35,13 @@ picture{
                 width: 200px;
                 height: 220px;
                 position: absolute;
-                left:550px;
+                left:60%;
                 top:5px;
 
 
 }
 picture > img{
-    width: 190px;
+                width: 190px;
                 border-radius: 5px;
                 box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
 }
@@ -79,12 +79,15 @@ ul > li{
 #outroscontatos{
     background-color: white;
     position: relative;
-    padding: 50px;
+    padding-top:50px ;
+    padding-left: 50px;
+    padding-right:50px ;
+    padding-bottom: 70px;
 }
 #github{
     display: inline-block;
     position: absolute;
-    left: 200px;
+    left: 20%;
     top: 10px;
 }
 #github img{
@@ -92,6 +95,7 @@ ul > li{
     height: 100px;
 }
 #github a{
+    display: block;
     font-size: 1.1em;
     text-decoration: none;
     color: black;
@@ -107,7 +111,7 @@ ul > li{
 #linkedin{
     display: inline-block;
     position: absolute;
-    left: 500px;
+    left: 60%;
     top: 10px;
 }
 #linkedin img{
@@ -115,6 +119,7 @@ ul > li{
     height: 100px;
 }
  #linkedin a{
+     display: block;
      font-size: 1.1em;
      text-decoration: none;
      color: black;
