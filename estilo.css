@@ -9,7 +9,7 @@ main{
     background-color: white;            
     padding: 15px;            
     max-width: 900px;  
-    min-width: 350px;
+    min-width: 320px;
     margin: auto; 
     margin-bottom: 30px; 
     box-shadow: 2px 2px 3px black;        
@@ -31,12 +31,11 @@ h1{
                position: relative;
 }
 picture{
-                
+                padding-bottom: 20px;
+                display: block;
                 width: 200px;
                 height: 220px;
-                position: absolute;
-                left:60%;
-                top:5px;
+                margin: auto;
 
 
 }
