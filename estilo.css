@@ -1,153 +1,208 @@
 *{
-     margin: 0;
-     padding: 0;           
+    margin:0;
+    padding:0;
 }
 body{
-       background-image: linear-gradient(to bottom,white, grey, black);         
+    background-color: #333030;
 }
-/* Main e header */
-main{
-    background-color: white;            
-    padding: 15px;            
-    max-width: 900px;  
-    min-width: 320px;
-    margin: auto; 
-    margin-bottom: 30px; 
-    box-shadow: 2px 2px 3px black;        
-}
-header{
-    width: 100%;
-    height: 100px; 
-    background-image:linear-gradient(to bottom, grey, black );           
+#curriculo{
+max-width: 1000px;
+margin: auto;   
+background-color: #efecec;   
 }
 h1{
-    padding-top: 15px;            
-    text-align: center;  
-    font-family: Helvetica, sans-serif ;   
-    color: white;       
-}
-/*dados pessoais*/
-#dadospessoais{
-               margin-top: 20px; 
-               position: relative;
-}
-picture{
-                padding-bottom: 20px;
-                display: block;
-                width: 200px;
-                height: 220px;
-                margin: auto;
-
-
-}
-picture > img{
-                width: 190px;
-                border-radius: 5px;
-                box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.562);
-}
-h2{
-    margin-bottom: 10px;            
-    font-family: Helvetica, sans-serif;
-    color:#416e78 ;            
-}
-.pessoal{
-    margin-top:5px;  
-    margin-bottom: 5px;
-    font-family: Helvetica, sans-serif;          
-}
-/*especialização*/
-#especializacao{
-                margin-top: 20px;
-                font-family: Helvetica, sans-serif;
-}
-.especi{
-                margin-top:10px;
-                margin-bottom: 5px;
-                text-align: justify;
-                line-height: 1.5em;
-}
-#progbr{
-       text-decoration: none;
-}
-ul > li{
-      list-style: none;
-      text-decoration: underline; 
-      margin-top: 5px;
-      margin-bottom: 5px;   
-        
-}
-
-li::before{
-        content: "";
-        display: inline-block;
-        width: 20px;
-        height: 20px;
-        background-image: url(fotoperfil/marcaselecao.png);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-        margin-right: 10px;  
-}
-/*outros contatos*/
-h4{
+    margin: auto;
+    padding-top: 30px;
     text-align: center;
-    font-family: Helvetica, sans-serif;
-    font-size: 1.5em;
-    text-decoration: underline;
-    margin-bottom: 20px; 
+    font-family: 'Righteous', cursive;
+    font-size: 36px;
+    max-width: 602px;
+    height: 60px;
+    border-style: solid;
+    border-top:none ;
+    border-left:none ;
+    border-right:none ;
 }
-#outroscontatos{
+header{
+    margin-top: 45px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 64px;
+    width: 270px;
+    height: 270px;
+    text-align: center;
+}
+
+#fotoperfil{
+    width: 300px;
+    border-style: solid;
+    border-width: 10px;
+    border-radius: 100%;
+}
+
+article{
+    background-color: white;
+    width: 100%;
+}
+#article-divimages{
+    width: 100%; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    position: relative;
+    
+}
+.article-divimages-img{
+    width: 191px;
+    position: relative;
+    top: -16px;
+}
+#secao-hardsoftskills{
+    margin-top: 50px ;
+    padding-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.article-hardsoftskills{
+    width: 360px;
+    height: 400px;
+    padding: 10px;
+    background-color:#efecec ;
+    border-radius: 5px;
+}
+.titulohardsoftskills{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.paragrafos{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+#sobremim{
+    width: 100%;
+    margin-bottom: 20px;
+}
+h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.sobremim-paragrafo{
+    max-width:524px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.4em;
+}
+
+#saibamais{
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#paragrafo-saibamais{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+}
+#imagemlinkedin{
+    width: 105px;
+}
+#imagemgithub{
+    width: 115px;
+}
+
+footer{
+    background-color: black;
+    
+}
+h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    text-align: center;
+    color:white; 
+    padding-top: 15px;
+}
+#contatos{
+    margin-top: 20px;
+    padding-bottom: 15px;
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
-    /* justify-content: space-around; */
-    align-items:center;
-    background-color: white;
-    position: relative;
-    padding: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 15px;
+
 }
- #github{ 
-    margin-bottom: 20px
-} 
-#github img{
-    width: 120px;
-    height: 100px;
+#email{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#zap{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#insta{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#email-img{
+    width: 60px;
+}
+#zap-img{
+    width: 50px;
+}
+#insta-img{
+    width: 50px;
+}
+.paragrafos-contato{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
 }
 
-#linkedin{
-    margin-top: 20px;
-}
-#linkedin img{
-    width: 100px;
-    height: 100px;
-}
-
-/*objetivos*/
-#objetivo{
-                margin-top: 20px;
-                padding-bottom: 15px;
-                font-family: Helvetica, sans-serif;
-                text-align: justify;
-}
-#objetivo p{
-    padding: 8px;
-    background-color: rgb(165, 161, 161);
-    border-top-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-    box-shadow: 1px 1px 2px black;
-    line-height: 1.5em;
-    font-size: 1.2em;
-}
-
-/*Rodapé*/
-footer{
-        width: 100%;
-        height: 100px;      
-}
-footer > p{
-          padding-top: 15px;
-          text-align: center;
-          font-size: 1.5em; 
-          font-family: Helvetica, sans-serif;
-          color: white;     
+@media (max-width: 550px){
+    h1{
+         font-size: 26px;           
+    }
+    .article-divimages-img{
+                    width: 150px;
+                    position: relative;
+                    top: -16px;
+    }
+    #paragrafo-saibamais{
+                    font-family: 'Rubik', sans-serif;
+                    font-size: 18px;
+                    padding-left: 5px;
+                    padding-right: 5px;
+                    padding-bottom: 15px;
+    }
 }
