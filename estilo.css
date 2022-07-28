@@ -48,11 +48,11 @@ h2{
     border-radius: 100%;
 }
 
-article{
+main{
     background-color: white;
     width: 100%;
 }
-#article-divimages{
+#main-divimages{
     width: 100%; 
     display: flex;
     flex-direction: row;
@@ -61,7 +61,7 @@ article{
     position: relative;
     
 }
-.article-divimages-img{
+.main-divimages-img{
     width: 191px;
     position: relative;
     top: -16px;
@@ -174,13 +174,7 @@ h4{
     flex-direction: column;
     align-items: center;
 }
-#email-img{
-    width: 60px;
-}
-#zap-img{
-    width: 50px;
-}
-#insta-img{
+.contatos-redes{
     width: 50px;
 }
 .paragrafos-contato{
@@ -193,10 +187,29 @@ h4{
     h1{
          font-size: 26px;           
     }
-    .article-divimages-img{
-                    width: 150px;
-                    position: relative;
-                    top: -16px;
+    h2{
+        font-family: 'Rubik', sans-serif;
+        font-size: 34px;
+        width: 170px;
+        height: 170px;
+        text-align: center;
+    }
+    #fotoperfil{
+        width: 250px;
+        border-style: solid;
+        border-width: 10px;
+        border-radius: 100%;
+    }
+    .main-divimages-img{
+        width: 150px;
+        position: relative;
+        top: -16px;
+    }
+    .paragrafos{
+         font-family: 'Roboto', sans-serif;
+         font-size: 14px;
+         margin-bottom: 15px;
+        
     }
     #paragrafo-saibamais{
                     font-family: 'Rubik', sans-serif;
@@ -204,5 +217,31 @@ h4{
                     padding-left: 5px;
                     padding-right: 5px;
                     padding-bottom: 15px;
+    }
+    .sobremim-paragrafo{
+        max-width:524px;
+        font-family: 'Rubik', sans-serif;
+        font-size: 14px;
+        margin: auto;
+        text-align: center;
+        line-height: 1.4em;
+    }
+    #paragrafo-saibamais{
+        font-family: 'Rubik', sans-serif;
+        font-size: 16px;
+    }
+    #imagemlinkedin{
+        width: 85px;
+    }
+    #imagemgithub{
+        width: 95px;
+    }
+    .contatos-redes{
+        width: 30px;
+    }
+    .paragrafos-contato{
+        color: white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
     }
 }
