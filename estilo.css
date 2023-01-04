@@ -55,13 +55,82 @@ header{
 }
 
 /* ESTILIZAÇÃO MAIN */
+#conteudoprincipal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 #informacoeshabilidades{
     width: 400px;
     background-color:#544839;
 }
+.linhahorizontal{
+    margin:auto;
+    margin-top: 5px;
+    width:97%;
+    height: 3px;
+    background-color: #ffffff;
+}
 .divisao-informacoeshabilidades{
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 10px;
+    padding-right: 10px;
+}
+.tituloarea-informacao1{
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+.informacoes-contato{
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+}
+.informacoes-contato >p{
+    font-family: roboto;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+.listashabilidades{
+    list-style: square;
+    list-style-position:inside;
+    color: #ffffff;
+}
+.itemlista-habilidades{
+    margin-top: 15px;
+    font-family: roboto;
+}
+#sobremimexperiencias{
+    max-width:750px;
+}
+.tituloarea-informacao2{
+    margin-top: 20px;
+    font-family: Rubik;
+    font-size: 24px;
+    font-weight: 500;
+}
+.paragrafo-sobremim{
+    font-family: roboto;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    line-height: 1.4em;
+}
+
+.item-experiencias{
+    margin-top: 30px;
+}
+.item-experiencias >p{
+    margin-top: 7px;
+    font-family: roboto;
+}
+
+#saibamais{
+    font-family: Rubik;
+    font-size: 20px;
+    position: relative;
+    top: 15%;
 }
