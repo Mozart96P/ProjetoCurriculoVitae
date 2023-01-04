@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#container-curriculo{
+    width: 1230px;
+    margin: auto;
+}
+/* ESTILIZAÇÃO HEADER */
+header{
+    width: 884px;
+    margin: auto;
+    margin-top:45px;
+    margin-bottom: 45px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#fotoperfil{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%
+}
+#informacoesheader{
+    width: 535px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#header-nome{
+    font-family: Rubik;
+    font-size: 48px;
+    font-weight: 500;
+}
+#header-cargo{
+    font-family: Rubik;
+    font-size: 20px;
+}
+.tecnologias{
+    width:50px;
+    height: 56px;
+}
+#informacoescargo{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+#horizontalrode{
+    width: 100%;
+    height: 3px;
+    background-color:#e5c44c ;
+}
+
+/* ESTILIZAÇÃO MAIN */
+
+#informacoeshabilidades{
+    width: 400px;
+    background-color:#544839;
+}
+.divisao-informacoeshabilidades{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+}
