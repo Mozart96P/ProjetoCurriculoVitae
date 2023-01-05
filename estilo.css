@@ -3,17 +3,18 @@
     padding: 0;
 }
 #container-curriculo{
-    width: 1230px;
+    max-width: 1230px;
     margin: auto;
 }
 /* ESTILIZAÇÃO HEADER */
 header{
-    width: 884px;
+    max-width: 884px;
     margin: auto;
     margin-top:45px;
     margin-bottom: 45px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
@@ -48,7 +49,7 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-#horizontalrode{
+.horizontalrode{
     width: 100%;
     height: 3px;
     background-color:#e5c44c ;
@@ -94,7 +95,6 @@ header{
     color: #ffffff;
     margin-left: 10px;
 }
-
 .listashabilidades{
     list-style: square;
     list-style-position:inside;
@@ -107,11 +107,22 @@ header{
 #sobremimexperiencias{
     max-width:750px;
 }
+.horizontalrodesobremim-experiencias{
+    width: 80%;
+    height: 3px;
+    background-color:#e5c44c ;
+}
 .tituloarea-informacao2{
     margin-top: 20px;
     font-family: Rubik;
     font-size: 24px;
     font-weight: 500;
+}
+.titulo-linha{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
 }
 .paragrafo-sobremim{
     font-family: roboto;
@@ -119,7 +130,6 @@ header{
     padding-bottom: 5px;
     line-height: 1.4em;
 }
-
 .item-experiencias{
     margin-top: 30px;
 }
@@ -127,10 +137,22 @@ header{
     margin-top: 7px;
     font-family: roboto;
 }
-
 #saibamais{
     font-family: Rubik;
     font-size: 20px;
     position: relative;
     top: 15%;
+}
+
+/* TRABALHANDO NA RESPONSIVIDADE */
+@media screen and (max-width:750px) 
+    {
+        header{
+            margin: auto;
+            margin-top:15px;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
 }
