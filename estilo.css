@@ -4,11 +4,13 @@
 }
 #container-curriculo{
     max-width: 1230px;
+    min-width: 320px;
     margin: auto;
 }
 /* ESTILIZAÇÃO HEADER */
 header{
     max-width: 884px;
+    min-width: 320px;
     margin: auto;
     margin-top:45px;
     margin-bottom: 45px;
@@ -24,7 +26,7 @@ header{
     border-radius: 50%
 }
 #informacoesheader{
-    width: 535px;
+    max-width: 535px;
     height: 220px;
     display: flex;
     flex-direction: column;
@@ -63,7 +65,7 @@ header{
 }
 
 #informacoeshabilidades{
-    width: 400px;
+    max-width: 400px;
     background-color:#544839;
 }
 .linhahorizontal{
@@ -106,6 +108,7 @@ header{
 }
 #sobremimexperiencias{
     max-width:750px;
+    margin-left: 10px;
 }
 .horizontalrodesobremim-experiencias{
     width: 80%;
@@ -156,7 +159,7 @@ header{
             align-items: center;
         }
 }
-@media screen and (max-width:500px){
+@media screen and (max-width:550px){
     #fotoperfil{
         width: 200px;
         height: 200px;
@@ -209,7 +212,19 @@ header{
         width:30px;
         height: 36px;
     }
+    #space-links{
+        margin: auto;
+    }
     .img-links{
-        width: 35px;
+        width: 30px;
+    }
+    #conteudoprincipal{
+        display: flex;
+        flex-direction: column;
+    }
+    #saibamais{
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-size: 18px;
     }
 }
