@@ -156,3 +156,60 @@ header{
             align-items: center;
         }
 }
+@media screen and (max-width:500px){
+    #fotoperfil{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%
+    }
+    #informacoesheader{
+        max-width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #header-nome{
+        text-align: center;
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #header-cargo{
+        font-family: Rubik;
+        font-size: 18px;
+    }
+    .tecnologias{
+        width:30px;
+        height: 36px;
+    }
+    .img-links{
+        width: 35px;
+    }
+}
+@media screen and (max-width:400px){
+    #informacoesheader{
+        max-width: 400px;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+    #header-nome{
+        text-align: center;
+        font-family: Rubik;
+        font-size: 24px;
+        font-weight: 500;
+    }
+    #header-cargo{
+        font-family: Rubik;
+        font-size: 18px;
+    }
+    .tecnologias{
+        width:30px;
+        height: 36px;
+    }
+    .img-links{
+        width: 35px;
+    }
+}
